@@ -15,6 +15,8 @@ var stockSymbols = []string{
 	"GOOGL",
 	"TSLA",
 	"AAPL",
+	"AMZN",
+	"DIS",
 	}
 
 // In-memory hashtable in which N amount of stocks will "live in"
