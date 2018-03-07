@@ -50,6 +50,5 @@ func GetStockData() {
 			MarketDataMap[stockSymbol] = &data
 		}
 	}
-	// Recursive call every n seconds
 	time.AfterFunc(time.Second * 10, GetStockData)
 }
